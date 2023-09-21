@@ -27,35 +27,13 @@ header {
   padding: 20px;
 }
 
-/* Navigation styles */
-nav {
-  background-color: #333;
-  color: #fff;
-}
-
-nav ul {
-  list-style: none;
-  padding: 10px 0;
-  text-align: center;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
 /* Main content styles */
 main {
   padding: 20px;
 }
 
-/* Section styles */
-section {
+/* Add spacing between new lines */
+p, ul, li, h2 {
   margin-bottom: 20px;
 }
 
@@ -72,12 +50,4 @@ a:hover {
 /* Social media link styles */
 .twitter-link, .debank-link {
   color: #007bff;
-}
-
-/* Footer styles */
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
 }
