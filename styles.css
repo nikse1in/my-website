@@ -31,6 +31,11 @@ header h1 {
   color: #ffffff; /* White text color */
 }
 
+/* Make the "Ox Bid" text black */
+.header-text {
+  color: #000000; /* Black text color */
+}
+
 /* Main content styles */
 main {
   padding: 20px;
