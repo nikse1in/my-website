@@ -22,8 +22,13 @@ body {
 /* Header styles */
 header {
   text-align: center;
-  background-color: #98AFC7; /* Header background color */
+  background-color: #ffffff; /* White header background */
   padding: 20px;
+}
+
+/* Make the header text white */
+header h1 {
+  color: #ffffff; /* White text color */
 }
 
 /* Main content styles */
