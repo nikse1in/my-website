@@ -26,14 +26,6 @@ header {
   text-align: center;
   background-color: #ffffff;
   padding: 20px;
-  opacity: 0;
-  animation: fade-in 1s forwards 0.5s;
-}
-
-@keyframes fade-in {
-  to {
-    opacity: 1;
-  }
 }
 
 /* Main content styles */
@@ -59,21 +51,4 @@ a:hover {
 /* Social media link styles */
 .twitter-link, .debank-link, .telegram-link, .linkedin-link {
   color: #007bff;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.twitter-link:hover, .debank-link:hover, .telegram-link:hover, .linkedin-link:hover {
-  background-color: #007bff;
-  color: #ffffff;
-}
-
-/* List item hover effect */
-ul li {
-  transition: transform 0.3s ease;
-}
-
-ul li:hover {
-  transform: scale(1.05);
 }
