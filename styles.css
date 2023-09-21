@@ -39,6 +39,16 @@ a {
   color: inherit;
 }
 
-a:visited {
+.internal-link {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.internal-link:hover {
+  transform: scale(1.1);
+}
+
+.internal-link:visited {
   color: inherit;
 }
