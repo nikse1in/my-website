@@ -4,12 +4,14 @@ body {
   color: black;
   background-color: #98AFC7;
 }
+
 header {
   background-color: #98AFC7;
   padding: 20px;
   text-align: center;
   font-size: 1.5em;
 }
+
 main {
   padding: 20px;
   font-size: 1.2em;
@@ -34,13 +36,15 @@ h2 {
   content: "• ";
 }
 
-.social-links a {
+.social-links a,
+a[href="about.html"] {
   text-decoration: none;
   color: #007bff;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
 }
 
-.social-links a:hover {
+.social-links a:hover,
+a[href="about.html"]:hover {
   color: #ff4500;
   text-decoration: underline;
-  transition: color 0.3s ease-in-out;
 }
