@@ -1,57 +1,64 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset some default styles */
+body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
-  background-color: white; /* Background color for all pages */
 }
 
+/* Set background color and font styles */
+body {
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text color */
+  font-family: Arial, sans-serif;
+}
+
+/* Container styles */
 .container {
-  max-width: 800px;
-  margin: auto;
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the content */
   padding: 20px;
-  border-radius: 10px;
-  background-color: white; /* Background color for content */
 }
 
+/* Header styles */
 header {
-  text-align: left;
+  text-align: center;
+  background-color: #98AFC7; /* Header background color */
+  padding: 20px;
 }
 
-h1 {
-  font-size: 2.5em;
-}
-
-h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 20px; /* Add margin at the top of headings */
-}
-
+/* Main content styles */
 main {
-  text-align: left;
-  margin-top: 20px; /* Add margin at the top of main content */
+  padding: 20px;
 }
 
+/* Link styles */
+a {
+  color: #0000FF; /* Blue link color */
+  text-decoration: none; /* Remove underlines */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Add styles for specific links */
+.bolide-link {
+  color: #008000; /* Green link color for Bolide.fi */
+}
+
+.twitter-link {
+  color: #0000FF; /* Blue link color for Twitter */
+}
+
+.debank-link {
+  color: #0000FF; /* Blue link color for DeBank */
+}
+
+/* Internal link styles */
 .internal-link {
-  text-decoration: none;
-  color: #333; /* Default link color */
-  transition: 0.3s;
+  color: #0000FF; /* Blue link color */
+  text-decoration: none; /* Remove underlines */
 }
 
 .internal-link:hover {
-  text-decoration: underline;
-}
-
-.bolide-link {
-  color: green;
-}
-
-.twitter-link, .twitter-link:hover {
-  text-decoration: underline;
-  color: blue;
-}
-
-.linkedin-link, .linkedin-link:hover {
-  text-decoration: underline;
-  color: #0077B5; /* LinkedIn's blue color */
+  text-decoration: underline; /* Add underline on hover */
 }
