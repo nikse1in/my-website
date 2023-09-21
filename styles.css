@@ -21,7 +21,7 @@ main {
   margin: auto;
   padding: 20px;
   background-color: #ffffff; /* White background */
-  border: 2px solid #000000; /* Black border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow instead of border */
 }
 
 /* Add some spacing below headers and around content */
