@@ -15,8 +15,8 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 50px;  /* Add space at the top between the container and the body background */
   padding: 20px;
-  padding-top: 50px;  /* Adds space at the top */
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
