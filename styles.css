@@ -31,12 +31,18 @@ h2 {
 }
 
 .social-links ul li {
-  margin-right: 20px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.bolide-link {
+  text-decoration: underline;
+  color: green;
 }
 
 .internal-link {
