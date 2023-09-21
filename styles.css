@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #98AFC7; /* Background color */
+  background-color: white; /* Background color for all pages */
 }
 
 .container {
@@ -32,13 +32,13 @@ main {
   margin-top: 20px; /* Add margin at the top of main content */
 }
 
-.internal-link, .bolide-link, .twitter-link, .linkedin-link {
+.internal-link {
   text-decoration: none;
   color: #333; /* Default link color */
   transition: 0.3s;
 }
 
-.internal-link:hover, .bolide-link:hover, .twitter-link:hover, .linkedin-link:hover {
+.internal-link:hover {
   text-decoration: underline;
 }
 
@@ -47,9 +47,11 @@ main {
 }
 
 .twitter-link, .twitter-link:hover {
+  text-decoration: underline;
   color: blue;
 }
 
 .linkedin-link, .linkedin-link:hover {
+  text-decoration: underline;
   color: #0077B5; /* LinkedIn's blue color */
 }
