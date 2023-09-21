@@ -2,59 +2,50 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: left;
+  background-color: white;
 }
 
 .container {
-  max-width: 800px;
-  margin: auto;
+  margin: 20px;
   padding: 20px;
+  border-radius: 10px;
 }
 
 header {
-  margin-bottom: 20px;
+  text-align: left;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h2 {
   font-size: 1.5em;
-  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.social-links ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 0;
+main {
+  text-align: left;
 }
 
-.social-links ul li {
-  margin-bottom: 15px;
-  font-size: 1.2em;
+.internal-link, .bolide-link, .twitter-link, .linkedin-link {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-a {
+.internal-link:hover, .bolide-link:hover, .twitter-link:hover, .linkedin-link:hover {
   text-decoration: none;
-  color: inherit;
 }
 
 .bolide-link {
-  text-decoration: underline;
   color: green;
 }
 
-.internal-link {
-  text-decoration: underline;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+.twitter-link {
+  color: blue;
 }
 
-.internal-link:hover {
-  transform: scale(1.1);
-}
-
-.internal-link:visited {
-  color: inherit;
+.linkedin-link {
+  color: #0077B5; /* LinkedIn's blue color */
 }
