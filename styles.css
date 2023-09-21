@@ -63,3 +63,8 @@ a:hover {
 .internal-link:hover {
   text-decoration: underline; /* Add underline on hover */
 }
+
+/* Add spacing between new lines */
+main p {
+  margin-bottom: 10px; /* Adjust the spacing as needed */
+}
