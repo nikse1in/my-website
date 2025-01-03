@@ -1,8 +1,9 @@
-modules = ["web"]
-run = "run"
+
+modules = ["nodejs-20:v8-20230920-bd784b9"]
+run = "python3 -m http.server 3000 --bind 0.0.0.0"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "run"]
+run = ["sh", "-c", "python3 -m http.server 3000 --bind 0.0.0.0"]
