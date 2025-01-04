@@ -7,3 +7,7 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "npx http-server -p 3000 --bind 0.0.0.0"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
