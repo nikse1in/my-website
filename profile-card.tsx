@@ -11,12 +11,12 @@ export default function Component() {
             <div className="flex items-center gap-3 mb-6">
               {/* X Icon - Replace with uploaded image */}
               <div className="w-6 h-6">
-                <Image src="/x-icon.png" alt="X icon" width={24} height={24} className="w-full h-full object-contain" />
+                <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/250px-X_logo.jpg" alt="X icon" width={24} height={24} className="w-full h-full object-contain" />
               </div>
               {/* W Icon - Replace with uploaded image */}
               <div className="w-10 h-10">
                 <Image
-                  src="/w-icon.png"
+                  src="https://docs.farcaster.xyz/og-image.png"
                   alt="W icon"
                   width={40}
                   height={40}
